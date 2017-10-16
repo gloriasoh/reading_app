@@ -1,0 +1,13 @@
+<div class="content">
+<a1>DETAILS</a1><br>
+Title: <%= @book.name %><br><br>
+Author: <%= @book.author %><br><br>
+Read?<% if @book.read %>
+  <b>Yes!</b>
+  <% else %>
+  <b>No!</b>
+  <% end %>
+
+<br><br>
+<h3><%= link_to 'BACK HOME', books_path %></h3>
+</div>

@@ -1,0 +1,13 @@
+<div class="content">
+<a1>NEW BOOK </a1><br>
+
+<%= simple_form_for @book do |books| %>
+<%= books.input :name, label: 'Title: ' %><br>
+<%= books.input :author, label: 'Author: ' %><br>
+<%= books.input :read %><br>
+<%= books.button :submit %>
+
+<% end %>
+<br>
+<h3><%= link_to 'BACK HOME', books_path %></h3>
+</div>

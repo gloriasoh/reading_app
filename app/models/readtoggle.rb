@@ -1,0 +1,2 @@
+class Readtoggle < ApplicationRecord
+end

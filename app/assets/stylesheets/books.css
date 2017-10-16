@@ -1,0 +1,54 @@
+body, html {
+    background-image: url("open-boook.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content {
+  background-color:grey; background-color: rgba(255, 255, 255, 0.8);
+  flex-grow: 1;
+  text-align: center;
+  margin: 20px 20px;
+}
+
+table, th, td {
+   border: 1px solid black;
+   text-align: center;
+   margin: auto;
+   font-family: arial;
+}
+
+thead {
+  background-color: #e8e8e8;
+
+}
+a1 {
+  font-family: 'Pacifico', cursive;
+  color: black;
+  font-size: 60px;
+  font-style: bold;
+
+}
+
+/* unvisited link */
+a:link {
+   color: black;
+   font-weight: bold;
+}
+
+/* visited link */
+a:visited {
+   color: black;
+   font-weight: bold;
+}
+
+/* mouse over link */
+a:hover {
+   color: maroon;
+}
+
+/* selected link */
+a:active {
+   color: grey;
+}
