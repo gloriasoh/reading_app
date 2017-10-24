@@ -11,6 +11,7 @@ class BooksController < ApplicationController
     else
       render :new
     end
+
   end
 
   def new
@@ -23,6 +24,7 @@ class BooksController < ApplicationController
 
   def show
     @book = Book.find(params[:id])
+    @bookmarks = @book.bookmarks
   end
 
   def update
